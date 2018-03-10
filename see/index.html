@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> Rotaract Prague | Tourist Guide </title>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Simon Buryan">
+
+    <script src="jquery-1.10.2.js"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body>
+
+    <nav class="navbar navbar-custom navbar-inverse">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand branding" href="http://www.rotaractprague.com">RAC Prague</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li><a href="../sleep/index.html">Hotels</a></li>
+            <li><a href="../eat/index.html">Restaurants</a></li>
+            <li class="active"><a href="index.html">Sight seeing<span class="sr-only">(current)</span></a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Visit Our Rotaract Club<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="https://www.facebook.com/rotaractpraha/" target="_blank">We are on Facebook</a></li>
+                <li><a href="https://twitter.com/rotaractprague" target="_blank">We are on Twitter</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="mailto:secretary@rotaractprague.com" target="_blank">Email our secretary</a> </li>
+              </ul>
+            </li>
+          </ul>
+
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="https://www.prague.eu/en/object/places/1174/tourist-information-centre-staromestska-radnice-old-town-hall" target="_blank">Official Tourist Info</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">District 2240<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="https://rotaract2240.org/" target="_blank">RAC District Web</a></li>
+                <li><a href="https://www.rotary2240.org/" target="_blank">RC District Web</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+
+<div class="topheading">
+    <div class="container">
+      <div class="jumbotron" id="home">
+        <div class="title">
+          <h2>The Prague Visitor’s Guide 2018</h2>
+          <h3>...created by Rotaract club Prague</h3>
+        </div>
+          <br>
+      </div>
+    </div>
+</div>
+
+    <div class="container data">
+
+      <div class="cathegory text-center">
+        <h3>Make your choice:</h3>
+          <button type="button" class="btn btn-danger flip">Must See</button>
+          <button type="button" class="btn btn-primary flip1">Lookout Tower</button>
+          <button type="button" class="btn btn-default flip5">Shopping</button>
+          <button type="button" class="btn btn-info flip2">City Fun</button>
+          <button type="button" class="btn btn-success flip3">City Park</button>
+          <button type="button" class="btn btn-warning flip4">Exhibition</button>
+          <br>
+          <button type="button" id="hideall" class="btn btn-info">Hide Selection</button>
+      </div>
+      <div class="">
+
+        <div class="listitem mustItemp col-md-4 col-sm-6 boxCover">
+          <div class="box">
+            <h3 class="placeName">Old Town Square</h3>
+            <img src="oldtownsq.jpg" alt="Location foto" class="profilePlace">
+            <h4><a href="http://www.praha.eu/jnp/en/index.html">Place website</a></h4>
+            <p>Fantastic historical place with an old astronomical clock, which is one of the European wonders.</p>
+            <h4 class="placeLocation">Staroměstské nám., 110 00 Staré Město</h4>
+          </div>
+        </div>
+
+        <div class="listitem mustItemp col-md-4 col-sm-6 boxCover">
+          <div class="box">
+          <h3 class="placeName">Dancing house</h3>
+          <img src="dancinghouse.jpg" alt="Location foto" class="profilePlace">
+          <h4><a href="http://www.dancinghousehotel.com/en/">Place website</a></h4>
+          <p>Great place for an evening drink with an outstanding view of Prague Castel and the Vltava river bank. This modern building is present in every architecture text-book.</p>
+          <h4 class="placeLocation">Jiráskovo nám. 1981/6, 120 00 Prague 2</h4>
+          </div>
+        </div>
+
+        <div class="listitem shopItemp col-md-4 col-sm-6 boxCover">
+          <div class="box">
+          <h3 class="placeName">Paladium</h3>
+          <img src="palladium.jpg" alt="Location foto" class="profilePlace">
+          <h4><a href="http://www.praha.eu/jnp/en/index.html">Place website</a></h4>
+          <p>Rebuild barracks shopping mall with local and international brands. There is a food court on the upper floor.</p>
+          <h4 class="placeLocation">Náměstí Republiky 1, 110 00 Prague 1</h4>
+          </div>
+        </div>
+
+        <div class="listitem lookItemp col-md-4 col-sm-6 boxCover">
+          <div class="box">
+          <h3 class="placeName">Prague TV Tower</h3>
+          <img src="tvtower.jpg" alt="Location foto" class="profilePlace">
+          <h4><a href="https://towerpark.cz/pages/tower">Place website</a></h4>
+          <p>Wonderful modern place 200 meter above the ground with a bar and restaurant. Great views, decent prices.</p>
+          <h4 class="placeLocation">Mahlerovy sady 1, 130 00 Prague 3</h4>
+          </div>
+        </div>
+
+        <div class="listitem lookItemp col-md-4 col-sm-6 boxCover">
+          <div class="box">
+          <h3 class="placeName">Petrin lookout tower</h3>
+          <img src="petrintower.jpg" alt="Location foto" class="profilePlace">
+          <h4><a href="https://www.prague.eu/en/object/places/116/petrin-lookout-tower-petrinska-rozhledna">Place website</a></h4>
+          <p>An observation tower close to the centre of Prague. It strongly resembles the Paris’ Eiffel tower and is one of the best view points in Prague</p>
+          <h4 class="placeLocation">Petřínské sady 633, 118 00 Praha 1</h4>
+          </div>
+        </div>
+
+        <div class="listitem funItemp col-md-4 col-sm-6 boxCover">
+          <div class="box">
+          <h3 class="placeName">Mind maze escape room</h3>
+          <img src="mindmaze.jpg" alt="Location foto" class="profilePlace">
+          <h4><a href="https://mindmaze.cz/en">Place website</a></h4>
+          <p>Mindmaze is one of the top-rated ones on trip advisor. Escape rooms are a great way to try something a little different with a group of friends.</p>
+          <h4 class="placeLocation">Balbínova 32, Praha 2, 12000</h4>
+          </div>
+        </div>
+
+        <div class="listitem funItemp col-md-4 col-sm-6 boxCover">
+          <div class="box">
+          <h3 class="placeName">Aquapalace Praha Čestlice</h3>
+          <img src="aquapalace.jpg" alt="Location foto" class="profilePlace">
+          <h4><a href="http://www.praha.eu/jnp/en/index.html">Place website</a></h4>
+          <p>Biggest aquapark in Czech Republic. Pools, slides, saunas, whirlpools, masages, everything. By city bus 45 mins from city centre.</p>
+          <h4 class="placeLocation">Pražská 138, 251 01 Čestlice</h4>
+          </div>
+        </div>
+
+        <div class="listitem parkItemp col-md-4 col-sm-6 boxCover">
+          <div class="box">
+          <h3 class="placeName">Vrtbovská Zahrada</h3>
+          <img src="vrtbovska.jpg" alt="Location foto" class="profilePlace">
+          <h4><a href="http://www.vrtbovska.cz/en/">Place website</a></h4>
+          <p>Amazing terrace garden in the French style. Very romantic place with low tourist traffic. Great for couples, newlyweds etc.</p>
+          <h4 class="placeLocation">Karmelitská 373/25, 118 00 Prague 1</h4>
+          </div>
+        </div>
+
+        <div class="listitem parkItemp col-md-4 col-sm-6 boxCover">
+          <div class="box">
+          <h3 class="placeName">Riegerovy sady</h3>
+          <img src="riegrovy.jpg" alt="Location foto" class="profilePlace">
+          <h4><a href="http://www.restauraceriegrovysady.cz/">Place website</a></h4>
+          <p>Nice english style park with great view of the Prague castle and city centre, most tourist miss this one. Great place for a picnic and afternoon chill-out.</p>
+          <h4 class="placeLocation">Riegrovy sady 28, 120 00 Prague 2</h4>
+          </div>
+        </div>
+
+        <div class="listitem exeItemp col-md-4 col-sm-6 boxCover">
+          <div class="box">
+          <h3 class="placeName">Galerie Dox</h3>
+          <img src="dox.jpg" alt="Location foto" class="profilePlace">
+          <h4><a href="http://www.dox.cz/en/">Place website</a></h4>
+          <p>Modern art gallery. Provocative exhibitions, fun pieces of art. This place is Very popular among young artists.</p>
+          <h4 class="placeLocation">Poupětova 1, 170 00 Prague 7</h4>
+          </div>
+        </div>
+
+        <div class="listitem exeItemp col-md-4 col-sm-6 boxCover">
+          <div class="box">
+          <h3 class="placeName">National gallery</h3>
+          <img src="ngal.jpg" alt="Location foto" class="profilePlace">
+          <h4><a href="http://www.ngprague.cz/en/">Place website</a></h4>
+          <p>Biggest painting exhibition in Prague. You can see here works of Czech and foreign painters.</p>
+          <h4 class="placeLocation">Dukelských Hrdinů, 170 00 Prague 7</h4>
+          </div>
+        </div>
+
+    </div>
+  </div>
+
+    <footer class="footer container">
+      <div class="footerInside">
+        <p class="pull-right">Version 0.0.7 (10.03.2018) <a href="#home">Back to top</a></p>
+        <p>© 2018 RAC Praha · <a href="http://www.rotaractprague.com">Privacy</a> · <a href="https://getbootstrap.com/docs/3.3/examples/carousel/#">Terms</a> created by <a href="http://www.simonburyan.cz">Šimon Buryan</a> </p>
+    </div>
+    </footer>
+
+<script src="script.js"></script>
+
+  </body>
+</html>

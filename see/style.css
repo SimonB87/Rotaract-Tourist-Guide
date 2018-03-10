@@ -1,0 +1,131 @@
+*{
+  padding:0;
+  margin:0;
+}
+
+.branding{
+ color: #2559b2;
+}
+
+.topheading{
+  margin: -20px;
+  background-image: url(hrad.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /*background-color: rgba(253, 181, 44, 0.9);*/
+}
+
+.title{
+  margin-top: 15%;
+  font-size: 2em;
+  /*color: #2559b2;*/
+  font-weight: 600;
+  /*text-shadow: white 1px 0 10px;*/
+  color: black;
+  -webkit-text-fill-color: blue; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+@media only screen and (max-width: 720px) {
+    .title {
+        margin-top: 25%;
+        font-size: 1.2em;
+    }
+}
+
+.jumbotron{
+  background-color: rgba(0, 0, 0, 0.0);
+  height: 50vh;
+}
+
+/* cathegories */
+
+.cathegory{
+  padding: 5px 5px 5px 5px;
+}
+
+.btn{
+  margin: 2px 2px 2px 2px;
+}
+
+#hideall{
+  background-color: darkgrey;
+  color: #fff;
+}
+
+button.flip,button.flip1,button.flip2,button.flip3,button.flip4,button.flip5,div.mustItemp,div.lookItemp,div.funItemp,div.parkItemp,div.exeItemp,div.shopItemp{
+user-select:none;
+}
+
+div.mustItemp,div.lookItemp,div.funItemp,div.parkItemp,div.exeItemp,div.shopItemp{
+/*height:120px;*/
+display:none;
+}
+
+button.flip{
+cursor:pointer;
+}
+
+.data{
+  padding-top: 40px;
+  min-height: 440px;
+}
+
+/* section for the result views */
+
+.boxCover{
+  height: 440px;
+}
+
+.box{
+  border: 1px solid #2559b2;
+  text-align:center;
+  padding: 1px 1px 1px 1px 1px;
+  margin: 1px 1px 1px 1px 1px;
+  height: 430px;
+}
+
+.profilePlace{
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 200px;
+}
+
+@media only screen and (max-width: 720px) {
+    .profilePlace {
+      width: 120px;
+      height: 120px;
+    }
+    .box{
+      height: 350px;
+    }
+}
+
+.placeName{
+  color: #2559b2;
+  font-weight: 600;
+}
+
+.placeLocation{
+  color: #2559b2;
+  font-weight: 400;
+  padding-bottom: 10px;
+}
+
+/*footer section*/
+
+footer{
+  margin-top: 25px;
+  border-top: 1px solid gray;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.footerInside{
+  padding-top: 50px;
+}

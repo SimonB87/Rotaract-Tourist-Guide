@@ -1,0 +1,159 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> Rotaract Prague | Tourist Guide </title>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Simon Buryan">
+
+    <script src="jquery-1.10.2.js"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body>
+
+    <nav class="navbar navbar-custom navbar-inverse">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand branding" href="http://www.rotaractprague.com">RAC Prague</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">Hotels<span class="sr-only">(current)</span></a></li>
+            <li><a href="../eat/index.html">Restaurants</a></li>
+            <li><a href="../see/index.html">Sight seeing</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Visit Our Rotaract Club<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="https://www.facebook.com/rotaractpraha/" target="_blank">We are on Facebook</a></li>
+                <li><a href="https://twitter.com/rotaractprague" target="_blank">We are on Twitter</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="mailto:secretary@rotaractprague.com" target="_blank">Email our secretary</a> </li>
+              </ul>
+            </li>
+          </ul>
+
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="https://www.prague.eu/en/object/places/1174/tourist-information-centre-staromestska-radnice-old-town-hall" target="_blank">Official Tourist Info</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">District 2240<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="https://rotaract2240.org/" target="_blank">RAC District Web</a></li>
+                <li><a href="https://www.rotary2240.org/" target="_blank">RC District Web</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+<div class="topheading">
+    <div class="container">
+      <div class="jumbotron" id="home">
+        <div class="title">
+          <h2>The Prague Visitor’s Guide 2018</h2>
+          <h3>...created by Rotaract club Prague</h3>
+        </div>
+          <br>
+      </div>
+    </div>
+</div>
+
+    <div class="container data">
+
+      <div class="cathegory text-center">
+        <h3>Make your choice:</h3>
+          <button type="button" class="btn btn-primary flip">Hotels</button>
+          <button type="button" class="btn btn-success flip1">Hostels</button>
+          <button type="button" class="btn btn-warning flip2">Personal accommodation</button>
+          <br>
+          <button type="button" id="hideall" class="btn btn-info">Hide Selection</button>
+      </div>
+      <div class="row">
+
+        <div class="listitem hotelsItemp col-md-4 col-sm-6 boxCover">
+          <div class="box">
+          <h3 class="placeName">Hotel Prokopka</h3>
+          <img src="astoria-hotel.jpg" alt="Free Room" class="profilePlace">
+          <h4><a href="http://prokopka.cz/en/">Hotel website</a></h4>
+          <p>A standard hotel in the Zizkov area. This hotel is being used to accommodate Rotaract event visitors. It is placed 10 minutes from city center.</p>
+          <h4 class="placeLocation">Prokopova 197/9, 130 00 Prague 3</h4>
+          </div>
+        </div>
+
+        <div class="listitem hotelsItemp col-md-4 col-sm-6 boxCover">
+          <div class="box">
+          <h3 class="placeName">Hotel Merkur</h3>
+          <img src="page-home-top-01.jpg?3" alt="Free Room" class="profilePlace">
+          <h4><a href="http://www.merkurhotel.cz/kontakty">Hotel website</a></h4>
+          <p>Modern hotel in the city center, reasonable prices: 900kč/night cca 35 EUR/night. The hotel is located near the Dlouhá street, where all the great bars and club are.</p>
+          <h4 class="placeLocation">Těšnov 1162/9, 110 00 Prague 1</h4>
+          </div>
+        </div>
+
+        <div class="listitem hostelsItemp col-md-4 col-sm-6 boxCover">
+          <div class="box">
+          <h3 class="placeName">AZ Hostel</h3>
+          <img src="1.jpg" alt="Free Room" class="profilePlace">
+          <h4><a href="https://www.az-prague-accommodation.com/">Hostel website</a></h4>
+          <p>Cheap Hostel in the middle of Prague center, at the Wenceslas Square. Lots of sightseeing and night life in the area.</p>
+          <h4 class="placeLocation">Prokopova 197/9, 130 00 Prague 3</h4>
+          </div>
+        </div>
+
+        <div class="listitem hostelsItemp col-md-4 col-sm-6 boxCover">
+          <div class="box">
+          <h3 class="placeName">Hostel Elf Prague</h3>
+          <img src="uptownbeergarden.jpg" alt="Free Room" class="profilePlace">
+          <h4><a href="http://www.hostelelf.com/">Hostel website</a></h4>
+          <p>Cheap accommodation on the edge of the city center. Great rooms and nice social room. Very good location with center reachable by 10-minut walk.</p>
+          <h4 class="placeLocation">Prokopova 197/9, 130 00 Prague 3</h4>
+          </div>
+        </div>
+
+        <div class="listitem personalItemp col-md-4 col-sm-6 boxCover">
+          <div class="box">
+          <h3 class="placeName">Kim's & Angela's place</h3>
+          <img src="loft.jpg" alt="Free Room" class="profilePlace">
+          <h4>Facebook link...</h4>
+          <p>Kim & Angela are siblings and they offer an available room at their flat. It is always open for visitors and they are happy to host.</p>
+          <h4 class="placeLocation">Dlouhá třída 1, Prague 1</h4>
+          </div>
+        </div>
+
+    </div>
+  </div>
+
+    <footer class="footer container">
+      <div class="footerInside">
+        <p class="pull-right">Version 0.0.7 (10.03.2018) <a href="#home">Back to top</a></p>
+        <p>© 2018 RAC Praha · <a href="http://www.rotaractprague.com">Privacy</a> · <a href="https://getbootstrap.com/docs/3.3/examples/carousel/#">Terms</a> created by <a href="http://www.simonburyan.cz">Šimon Buryan</a> </p>
+    </div>
+    </footer>
+
+<script src="script.js"></script>
+
+  </body>
+</html>

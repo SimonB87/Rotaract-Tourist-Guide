@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> Rotaract Prague | Tourist Guide </title>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Simon Buryan">
+
+    <script src="jquery-1.10.2.js"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body>
+
+    <nav class="navbar navbar-custom navbar-inverse">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand branding" href="http://www.rotaractprague.com">RAC Prague</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li><a href="../sleep/index.html">Hotels</a></li>
+            <li class="active"><a href="index.html">Restaurants<span class="sr-only">(current)</span></a></li>
+            <li><a href="../see/index.html">Sight seeing</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Visit Our Rotaract Club<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="https://www.facebook.com/rotaractpraha/" target="_blank">We are on Facebook</a></li>
+                <li><a href="https://twitter.com/rotaractprague" target="_blank">We are on Twitter</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="mailto:secretary@rotaractprague.com" target="_blank">Email our secretary</a> </li>
+              </ul>
+            </li>
+          </ul>
+
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="https://www.prague.eu/en/object/places/1174/tourist-information-centre-staromestska-radnice-old-town-hall" target="_blank">Official Tourist Info</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">District 2240<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="https://rotaract2240.org/" target="_blank">RAC District Web</a></li>
+                <li><a href="https://www.rotary2240.org/" target="_blank">RC District Web</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+
+<div class="topheading">
+    <div class="container">
+      <div class="jumbotron" id="home">
+        <div class="title">
+          <h2>The Prague Visitor’s Guide 2018</h2>
+          <h3>...created by Rotaract club Prague</h3>
+        </div>
+          <br>
+      </div>
+    </div>
+</div>
+
+    <div class="container data">
+
+      <div class="cathegory text-center">
+        <h3>Make your choice:</h3>
+          <button type="button" class="btn btn-primary flip">Restaurant</button>
+          <button type="button" class="btn btn-success flip1">Vegetarian</button>
+          <button type="button" class="btn btn-danger flip2">Asian Restaurant</button>
+          <button type="button" class="btn btn-info flip3">Pub</button>
+          <button type="button" class="btn btn-warning flip4">Café</button>
+          <br>
+          <button type="button" id="hideall" class="btn btn-info">Hide Selection</button>
+      </div>
+      <div class="">
+
+        <div class="listitem cafeItemp col-md-4 col-sm-6 boxCover">
+          <div class="box">
+            <h3 class="placeName">Cafe Amandine </h3>
+            <img src="modern.jpg" alt="Eating place" class="profilePlace">
+            <h4><a href="http://www.cafeamandine.cz/en/">Cafe website</a></h4>
+            <p>A great french restaurant near Karlovo Namesti.</p>
+            <h4 class="placeLocation">Na Moráni 1689/17, 120 00 Prague 2</h4>
+          </div>
+        </div>
+
+        <div class="listitem cafeItemp col-md-4 col-sm-6 boxCover">
+          <div class="box">
+          <h3 class="placeName">Cafecafe</h3>
+          <img src="vysehrad.jpg" alt="Eating place" class="profilePlace">
+          <h4><a href="http://www.cafe-cafe.cz">Cafe website</a></h4>
+          <p>A lovely place near Wenceslas Square to have a weekend brunch or a light snack during the day.</p>
+          <h4 class="placeLocation">Rytířská 10/10, 110 00 Prague 1</h4>
+          </div>
+        </div>
+
+        <div class="listitem restItemp col-md-4 col-sm-6 boxCover">
+          <div class="box">
+          <h3 class="placeName">Prague TV Tower</h3>
+          <img src="tvtower.jpg" alt="Eating place" class="profilePlace">
+          <h4><a href="https://towerpark.cz/pages/restaurant">Restaurant website</a></h4>
+          <p>Wonderful modern restaurant 200 meter above the ground. Great views, decent prices.</p>
+          <h4 class="placeLocation">Mahlerovy sady 1, 130 00 Prague 3</h4>
+          </div>
+        </div>
+
+        <div class="listitem restItemp col-md-4 col-sm-6 boxCover">
+          <div class="box">
+          <h3 class="placeName">Home Kitchen </h3>
+          <img src="blue.jpg" alt="Eating place" class="profilePlace">
+          <h4><a href="http://www.homekitchen.cz/en/menu/">Restaurant website</a></h4>
+          <p>calm and cozy unconventional bistro with great selection of dishes and drinks.</p>
+          <h4 class="placeLocation">Kozí 916/5, 110 00 Prague 1</h4>
+          </div>
+        </div>
+
+        <div class="listitem restItemp col-md-4 col-sm-6 boxCover">
+          <div class="box">
+          <h3 class="placeName">The Tavern</h3>
+          <img src="tavern.jpg" alt="Eating place" class="profilePlace">
+          <h4><a href="http://www.thetavern.cz/">Restaurant website</a></h4>
+          <p>A cosy restaurant where you can get some of the best burgers in Prague.</p>
+          <h4 class="placeLocation">Chopinova 26, 120 00 Prague 2</h4>
+          </div>
+        </div>
+
+        <div class="listitem restItemp col-md-4 col-sm-6 boxCover">
+          <div class="box">
+          <h3 class="placeName">Café Zanzibar</h3>
+          <img src="modern.jpg" alt="Eating place" class="profilePlace">
+          <h4><a href="http://www.thetavern.cz/">Restaurant website</a></h4>
+          <p>A casual restaurant and café located in Vinohrady.</p>
+          <h4 class="placeLocation">Americká 152/15, 120 00 Prague 2</h4>
+          </div>
+        </div>
+
+        <div class="listitem vegItemp col-md-4 col-sm-6 boxCover">
+          <div class="box">
+          <h3 class="placeName">Maitrea</h3>
+          <img src="bridge.jpg" alt="Eating place" class="profilePlace">
+          <h4><a href="http://www.restaurace-maitrea.cz/">Restaurant website</a></h4>
+          <p>A vegetarian and vegan friendly restaurant close to Old Town’s square that even meat-lovers seem to love.</p>
+          <h4 class="placeLocation">Týnská ulička 1064/6, 110 00 Prague 1</h4>
+          </div>
+        </div>
+
+        <div class="listitem vegItemp col-md-4 col-sm-6 boxCover">
+          <div class="box">
+          <h3 class="placeName">Mlsná Kavka </h3>
+          <img src="blue.jpg" alt="Eating place" class="profilePlace">
+          <h4><a href="http://www.mlsnakavka.cz/en/">Restaurant website</a></h4>
+          <p>Vegetarian restuarant at the city centre edge with modern cuisine and small brewery beers.</p>
+          <h4 class="placeLocation">Sokolovská 29, 186 00 Prague 8</h4>
+          </div>
+        </div>
+
+        <div class="listitem pubItemp col-md-4 col-sm-6 boxCover">
+          <div class="box">
+          <h3 class="placeName">New Town’s Brewery</h3>
+          <img src="cellar.jpg" alt="Eating place" class="profilePlace">
+          <h4><a href="http://www.npivovar.cz/en/">Pub website</a></h4>
+          <p>Great traditional Czech restaurant with brewery, which they offer on tap. There are many cellar rooms and terrace as well.</p>
+          <h4 class="placeLocation">Sokolovská 29, 186 00 Prague 8</h4>
+          </div>
+        </div>
+
+        <div class="listitem pubItemp col-md-4 col-sm-6 boxCover">
+          <div class="box">
+          <h3 class="placeName">U Krále Brabantského</h3>
+          <img src="bridge.jpg" alt="Eating place" class="profilePlace">
+          <h4><a href="http://www.krcmabrabant.cz/en/">Pub website</a></h4>
+          <p>Medieval tavern, waiters in historical costumes, Medieval flame shows, belly dancers. Located near Prague Castle.</p>
+          <h4 class="placeLocation">Thunovská 198/15, 118 00 Prague 1</h4>
+          </div>
+        </div>
+
+        <div class="listitem pubItemp col-md-4 col-sm-6 boxCover">
+          <div class="box">
+          <h3 class="placeName">Prague Beer Museum</h3>
+          <img src="pub.jpg" alt="Eating place" class="profilePlace">
+          <h4><a href="http://www.praguebeermuseum.cz/en/content?page=submenu&XUBPAGEHL=85&XUBPAGE=105">Pub website</a></h4>
+          <p>Wide selection of beers from small Czech breweries. Great menus for beer tasting. Located near many dance clubs.</p>
+          <h4 class="placeLocation">Smetanovo nábřeží 205/22, 110 00 Prague 1</h4>
+          </div>
+        </div>
+
+        <div class="listitem asiaItemp col-md-4 col-sm-6 boxCover">
+          <div class="box">
+          <h3 class="placeName">Modrý Zub</h3>
+          <img src="zub.jpg" alt="Eating place" class="profilePlace">
+          <h4><a href="http://www.praguebeermuseum.cz/en/content?page=submenu&XUBPAGEHL=85&XUBPAGE=105">Pub website</a></h4>
+          <p>Authentic Thai cusine found in several locations around Prague.</p>
+          <h4 class="placeLocation">Jindřišská 5, 110 00 Prague 1</h4>
+          </div>
+        </div>
+
+        <div class="listitem asiaItemp col-md-4 col-sm-6 boxCover">
+          <div class="box">
+          <h3 class="placeName">Modrý Zub</h3>
+          <img src="zubnext.jpg" alt="Eating place" class="profilePlace">
+          <h4><a href="http://www.praguebeermuseum.cz/en/content?page=submenu&XUBPAGEHL=85&XUBPAGE=105">Pub website</a></h4>
+          <p>Authentic Thai cusine found in several locations around Prague.</p>
+          <h4 class="placeLocation">Spálená 29, 110 00 Prague 1</h4>
+          </div>
+        </div>
+
+        <div class="listitem asiaItemp col-md-4 col-sm-6 boxCover">
+          <div class="box">
+          <h3 class="placeName">Modrý Zub</h3>
+          <img src="zub.jpg" alt="Eating place" class="profilePlace">
+          <h4><a href="http://www.praguebeermuseum.cz/en/content?page=submenu&XUBPAGEHL=85&XUBPAGE=105">Pub website</a></h4>
+          <p>Authentic Thai cusine found in several locations around Prague.</p>
+          <h4 class="placeLocation">Dlouhá 737/21, 110 00 Prague 1</h4>
+          </div>
+        </div>
+
+    </div>
+  </div>
+
+    <footer class="footer container">
+      <div class="footerInside">
+        <p class="pull-right">Version 0.0.7 (10.03.2018) <a href="#home">Back to top</a></p>
+        <p>© 2018 RAC Praha · <a href="http://www.rotaractprague.com">Privacy</a> · <a href="https://getbootstrap.com/docs/3.3/examples/carousel/#">Terms</a> created by <a href="http://www.simonburyan.cz">Šimon Buryan</a></p>
+    </div>
+    </footer>
+
+<script src="script.js"></script>
+
+  </body>
+</html>
